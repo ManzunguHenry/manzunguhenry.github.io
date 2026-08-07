@@ -1,0 +1,33 @@
+PORTFOLIO VERSION 5.2
+
+Applied all requested polish EXCEPT the Download CV button.
+
+Included:
+- Custom MH favicon
+- SEO descriptions and page titles
+- Open Graph / LinkedIn / WhatsApp preview image
+- Canonical metadata for https://manzunguhenry.github.io
+- Subtle loading animation
+- Back-to-top button
+- 404 page
+- Image optimisation
+- Footer copyright
+- Navigation label changed to Professional Experience
+- Enhanced portfolio card hover state
+- Research workflow diagram
+- Improved research technology/tool presentation
+- Improved Contact page with visual icons
+- Project lightbox enhanced with:
+  keyboard navigation
+  previous/next buttons
+  image count
+  mobile swipe
+- Existing project summary cards retained
+- No CV button added
+
+LinkedIn:
+https://www.linkedin.com/in/manzungu-henry/
+
+Important:
+The website is ready for GitHub Pages at:
+https://manzunguhenry.github.io

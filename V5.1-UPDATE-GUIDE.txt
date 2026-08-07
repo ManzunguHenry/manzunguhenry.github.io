@@ -1,0 +1,21 @@
+PORTFOLIO VERSION 5.1 UPDATE
+
+Changes made:
+- LinkedIn profile updated to:
+  https://www.linkedin.com/in/manzungu-henry/
+
+- Project Summary cards restored on project pages.
+- Summary fields are:
+  Role
+  Organisation
+  Client
+  Project Value
+  Duration
+  Status
+
+- Location is NOT included in any Project Summary card.
+- Existing V5 layout, animations, gallery images and navigation retained.
+- Where a value was not supported by the available portfolio information,
+  it is marked "Not Publicly Disclosed" rather than guessed.
+
+Project pages updated: 11
