@@ -25,10 +25,7 @@
 
 </head>
 <body>
-<div id="site-loader" class="site-loader" aria-hidden="true">
-  <div class="loader-mark">MH</div>
-</div>
-<button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">↑</button><div class="progress"></div><header class="site-header">
+<button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" style="opacity:0;pointer-events:none;position:fixed">↑</button><div class="progress"></div><header class="site-header">
 <div class="container nav">
 <a class="brand" href="index.html">MANZUNGU HENRY TALENT</a>
 <button class="menu" aria-label="Open navigation">☰</button>
@@ -57,36 +54,39 @@
 <article class="simple-card"><h3>Integration</h3><p>Develop guidance for incorporating green infrastructure and SuDS into urban water-management practice.</p></article>
 </div></div></section>
 
-<section class="section"><div class="container">
-<div class="section-head"><div><div class="kicker">Methodology</div><h2>Integrated spatial, hydraulic and stakeholder analysis</h2></div></div>
-<div class="research-method-grid">
-<article><h3>Remote Sensing &amp; GIS</h3><p>Sentinel-2 and Landsat 8 surface reflectance imagery, NDVI, NDWI, land-surface temperature and SRTM elevation analysis.</p></article>
-<article><h3>Hydrology &amp; Flood Modelling</h3><p>CHIRPS rainfall analysis, annual maxima, Gumbel EV1, Rational Method runoff estimation and HEC-RAS 1D steady-flow modelling.</p></article>
-<article><h3>Stakeholder Evidence</h3><p>Interviews and surveys analysed alongside spatial and hydraulic evidence to capture implementation barriers, perceptions and enabling factors.</p></article>
+<section class="section research-methodology-dashboard"><div class="container">
+<div class="section-head"><div><div class="kicker">Methodology</div><h2>Integrated spatial, hydraulic and stakeholder analysis</h2><p class="method-intro">A mixed-method evidence system combining satellite observation, spatial analysis, rainfall-runoff assessment, hydraulic modelling and stakeholder evidence.</p></div></div>
+<div class="method-visual-grid">
+<article class="method-visual-card remote-card reveal">
+  <div class="method-visual remote-visual" aria-hidden="true"><div class="satellite">SAT</div><div class="scan-line"></div><div class="map-layer l1"></div><div class="map-layer l2"></div><div class="map-layer l3"></div><span class="map-label">NDVI</span><span class="map-label second">NDWI</span></div>
+  <div class="method-copy"><span class="method-number">01 · Earth Observation</span><h3>Remote Sensing &amp; GIS</h3><p>Sentinel-2 and Landsat 8 surface reflectance imagery, NDVI, NDWI, land-surface temperature and SRTM elevation analysis.</p><div class="method-tags"><b>Sentinel-2</b><b>Landsat 8</b><b>GEE</b><b>QGIS</b></div></div>
+</article>
+<article class="method-visual-card hydro-card reveal">
+  <div class="method-visual hydro-visual" aria-hidden="true"><div class="rain r1"></div><div class="rain r2"></div><div class="rain r3"></div><svg viewBox="0 0 500 220" preserveAspectRatio="none"><path class="hydro-area" d="M0 200 C60 195 85 185 120 172 C165 155 175 80 220 105 C255 125 285 175 330 155 C375 135 395 58 430 85 C465 110 480 145 500 132 L500 220 L0 220 Z"/><path class="hydro-line" d="M0 200 C60 195 85 185 120 172 C165 155 175 80 220 105 C255 125 285 175 330 155 C375 135 395 58 430 85 C465 110 480 145 500 132"/></svg><div class="hydro-pulse"></div><span class="axis-label">Rainfall → Runoff → Discharge</span></div>
+  <div class="method-copy"><span class="method-number">02 · Hydrology</span><h3>Climate &amp; Runoff Analysis</h3><p>CHIRPS rainfall, annual maxima, Gumbel EV1 frequency analysis, Rational Method runoff estimation and areal reduction factors.</p><div class="method-tags"><b>CHIRPS</b><b>Gumbel EV1</b><b>Rational Method</b></div></div>
+</article>
+<article class="method-visual-card flood-card reveal">
+  <div class="method-visual flood-visual" aria-hidden="true"><div class="terrain t-left"></div><div class="terrain t-right"></div><div class="flood-water"><i></i><i></i><i></i></div><div class="section-line"></div><div class="depth-gauge"><span></span></div><span class="flood-label">2 · 10 · 50 · 100 year</span></div>
+  <div class="method-copy"><span class="method-number">03 · Hydraulic Model</span><h3>Flood Modelling</h3><p>HEC-RAS 1D steady-flow modelling evaluates water levels and flood behaviour across selected return-period scenarios.</p><div class="method-tags"><b>HEC-RAS</b><b>1D Steady Flow</b><b>Flood Profiles</b></div></div>
+</article>
+<article class="method-visual-card stakeholder-card reveal">
+  <div class="method-visual stakeholder-visual" aria-hidden="true"><div class="people"><i></i><i></i><i></i><i></i><i></i></div><div class="response-bars"><span style="--h:72%"></span><span style="--h:48%"></span><span style="--h:84%"></span><span style="--h:62%"></span><span style="--h:76%"></span></div><div class="signal-ring"></div></div>
+  <div class="method-copy"><span class="method-number">04 · Human Evidence</span><h3>Stakeholder Evidence</h3><p>Interviews and surveys are analysed alongside spatial and hydraulic evidence to identify implementation barriers, perceptions and enabling factors.</p><div class="method-tags"><b>Interviews</b><b>Surveys</b><b>NVivo</b></div></div>
+</article>
 </div></div></section>
 
 
-<section class="section research-methodology-visual">
-  <div class="container">
-    <div class="section-head">
-      <div>
-        <div class="kicker">Research Workflow</div>
-        <h2>From evidence to practical guidance</h2>
-      </div>
-    </div>
-    <div class="method-flow">
-      <div class="method-step"><span>01</span><strong>Remote Sensing</strong><small>Sentinel-2 · Landsat 8</small></div>
-      <div class="method-arrow">→</div>
-      <div class="method-step"><span>02</span><strong>Spatial Analysis</strong><small>GEE · QGIS · SRTM</small></div>
-      <div class="method-arrow">→</div>
-      <div class="method-step"><span>03</span><strong>Hydrology & Flood Modelling</strong><small>CHIRPS · Gumbel EV1 · HEC-RAS</small></div>
-      <div class="method-arrow">→</div>
-      <div class="method-step"><span>04</span><strong>Stakeholder Evidence</strong><small>Interviews · Surveys · NVivo</small></div>
-      <div class="method-arrow">→</div>
-      <div class="method-step"><span>05</span><strong>Integrated Guidance</strong><small>Green Infrastructure · SuDS</small></div>
-    </div>
-  </div>
-</section>
+<section class="section research-flow-section"><div class="container">
+<div class="section-head"><div><div class="kicker">Research Workflow</div><h2>Evidence moving toward practical guidance</h2><p class="method-intro">The workflow is presented as one connected evidence pathway rather than separate analytical tasks.</p></div></div>
+<div class="research-pathway" aria-label="Research evidence workflow">
+  <div class="path-line"><span class="data-pulse p1"></span><span class="data-pulse p2"></span><span class="data-pulse p3"></span></div>
+  <article class="path-node node-cyan"><span class="node-index">01</span><div class="node-orbit"><i></i></div><strong>Satellite Data</strong><small>Sentinel-2 · Landsat 8</small></article>
+  <article class="path-node node-green"><span class="node-index">02</span><div class="node-orbit"><i></i></div><strong>Spatial Analysis</strong><small>GEE · QGIS · SRTM</small></article>
+  <article class="path-node node-blue"><span class="node-index">03</span><div class="node-orbit"><i></i></div><strong>Climate &amp; Hydrology</strong><small>CHIRPS · Gumbel · Runoff</small></article>
+  <article class="path-node node-purple"><span class="node-index">04</span><div class="node-orbit"><i></i></div><strong>Flood Modelling</strong><small>HEC-RAS · Return periods</small></article>
+  <article class="path-node node-orange"><span class="node-index">05</span><div class="node-orbit"><i></i></div><strong>Stakeholder Evidence</strong><small>Interviews · Surveys · NVivo</small></article>
+  <article class="path-node node-gold"><span class="node-index">06</span><div class="node-orbit"><i></i></div><strong>Integrated Guidance</strong><small>Green Infrastructure · SuDS</small></article>
+</div></div></section>
 
 <section class="section alt"><div class="container">
 <div class="section-head"><div><div class="kicker">Tools</div><h2>Research Technology Stack</h2></div></div>
